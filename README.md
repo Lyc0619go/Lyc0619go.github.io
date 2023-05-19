@@ -8,7 +8,10 @@
     <div class="intro_bg">
       <div class="header">
         <div class="searchArea">
+          <form>
           <input type="search" placeholder="Search">
+          <span>검색</span>
+          </form>
         </div>
         <ul class="nav">
           <li><a href="#">HOME</a></li>
