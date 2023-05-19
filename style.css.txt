@@ -32,6 +32,12 @@
      margin-top:24px;
 }
 
+.searchArea > form > input{
+    border:none;
+    width;
+    background:rgba(0,0,0,0.0);
+}
+
 .nav{
     display:flex;
     justify-content: flex-end;
