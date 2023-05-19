@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="ko">
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
