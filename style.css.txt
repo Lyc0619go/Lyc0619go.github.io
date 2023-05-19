@@ -34,7 +34,7 @@
 
 .searchArea > form > input{
     border:none;
-    width:270px;
+    width:250px;
     background:rgba(0,0,0,0.0);
 }
 
