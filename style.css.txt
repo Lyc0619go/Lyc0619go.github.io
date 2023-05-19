@@ -39,6 +39,12 @@
     color:#fff;
     padding-left:10px;
     
+ .searchArea > form > span{
+    width:50px;
+    color:#fff;
+    font-weight:border;
+    
+    
 }
 
 .nav{
