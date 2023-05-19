@@ -53,7 +53,9 @@
     line-height: 86px;
     width:calc(1280px - 300px);
     background:blue;
-    
+    color:#fff;
+ 
+ .nav
 
 }
    
