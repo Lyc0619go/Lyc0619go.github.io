@@ -9,8 +9,8 @@
       <div class="header">
         <div class="searchArea">
           <form>
-          <input type="search" placeholder="Search">
-          <span>검색</span>
+            <input type="search" placeholder="검색">
+            <span>검색</span>
           </form>
         </div>
         <ul class="nav">
