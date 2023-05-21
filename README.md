@@ -20,7 +20,8 @@
           <li><a href="#">CONTACT</a></li>  
         </ul>
       </div>
+      <h1> 인도네시아 관광</h1>
     </div>
-  </div>
+   </div>
 </body>
 </html>
