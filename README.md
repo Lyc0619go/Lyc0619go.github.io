@@ -20,6 +20,7 @@
           <li><a href="#">CONTACT</a></li>  
         </ul>
       </div>
+      <div class="intro_text">
       <h1> 인도네시아</h1>
       <h4> 인도네시아 관광</h4>
     </div>
