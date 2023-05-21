@@ -56,6 +56,13 @@
        margin-left:84px;
 }
 
+.intro_text{
+   width:100%;
+   margin:auto;
+   background: black;
+   text-align: center
+}
+
 .intro_text > h1,
 .intro_text > h4{
   color:#fff;
