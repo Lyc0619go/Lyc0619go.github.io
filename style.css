@@ -60,14 +60,17 @@
 .amount{
      display: flex;
      width:1280px;
-     background: #fff;
+     background: red;
 }
+. amount > li {
+    flex: 1;
+    background: blue;
+}
+
 .amount > li > div {
      text-align: center;
 }
-. amount > li {
-    background: blue;
-}
+
 
 .intro_text{
    width:100%;
