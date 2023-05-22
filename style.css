@@ -58,7 +58,9 @@
 }
 
 .amount{
-     display: flex;
+    position: relative;
+    top:-66px;
+    display: flex;
      width:1280px;
      background: red;
      margin: auto;
@@ -71,6 +73,7 @@
 
 .amount > li > div {
      text-align: center;
+     background: green;
 }
 
 
