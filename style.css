@@ -86,8 +86,12 @@ h1 {
 }
 
 .amount > li {
-  flex: 1;
-  height: 132px;
+      flex: 1;
+      height: 132px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
  .amount > li > div {
