@@ -17,6 +17,9 @@ h1 {
     font-weight: lighter;
 }
 
+.result{
+   font-size: 24px;
+}
 .intro_bg {
   background-image: url("../images/intro.png");
   width: 100%; 
@@ -60,11 +63,13 @@ h1 {
   justify-content: flex-end;
   line-height: 86px;
   width: calc(1280px - 300px);
-  color: #fff;
 }
 
 .nav > li {
   margin-left: 84px;
+  
+.nav > li > a {
+  color: white;
 }
 
 .amount {
@@ -79,18 +84,15 @@ h1 {
 .amount > li {
   flex: 1;
   height: 132px;
-  background: skyblue;
 }
 
-.amount > li > div {
+ .amount > li > div {
   text-align: center;
-  background: green;
-  border-right:1px solid gray;
   margin-top:37px;
   height:57px;
 }
 
-.amount > li > div:not(:last-child) > div{
+.amount > li:not(:last-child) > div{
   border-right:1px solid gray;
 }
 
