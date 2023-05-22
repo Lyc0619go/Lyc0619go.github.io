@@ -14,10 +14,10 @@
           </form>
         </div>
         <ul class="nav">
-          <li><a href="#">메인</a></li>
           <li><a href="#">관광지</a></li>
           <li><a href="#">정보</a></li>
-          <li><a href="#">교통수단</a></li>  
+          <li><a href="#">교통수단</a></li>
+          <li><a href="#">기후</a></li>  
         </ul>
       </div>
       <div class="intro_text">
