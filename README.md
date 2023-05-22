@@ -14,10 +14,10 @@
           </form>
         </div>
         <ul class="nav">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICE</a></li>
-          <li><a href="#">CONTACT</a></li>  
+          <li><a href="#">메인</a></li>
+          <li><a href="#">관광지</a></li>
+          <li><a href="#">정보</a></li>
+          <li><a href="#">교통수단</a></li>  
         </ul>
       </div>
       <div class="intro_text">
