@@ -57,6 +57,15 @@
        margin-left:84px;
 }
 
+.amount{
+     display: flex;
+     width:1280px;
+     background: #fff;
+}
+.amount > li > div {
+     text-align: center;
+}
+
 .intro_text{
    width:100%;
    margin:231 auto 231px auto;
