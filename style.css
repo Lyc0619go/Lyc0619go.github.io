@@ -65,6 +65,9 @@
 .amount > li > div {
      text-align: center;
 }
+. amount > li {
+    background: blue;
+}
 
 .intro_text{
    width:100%;
