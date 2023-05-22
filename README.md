@@ -25,10 +25,22 @@
         <h4>인도네시아 관광에 도움이 되는 정보를 공유합니다</h4>
         
         <ul class="amount"> 
-          <li><div>관광지</div></li>
-          <li><div>정보</div></li>
-          <li><div>교통수단</div></li>
-          <li><div>기후</div></li>  
+          <li>
+          <div>관광지</div>
+           <div>발리 반둥 자카르타 족자카르타</div>
+          </li>
+          <li>
+          <div>정보</div>
+           <div>주의할점 유익한정보 시세</div>
+          </li>
+          <li>
+          <div>교통수단</div>
+           <div>자동차 오토바이 바자이 택시 그랩&고잭</div>
+          </li>
+          <li>
+          <div>기후</div>
+          <div>우기 건기</div>
+          </li>  
         </ul>
       </div>
     </div>
