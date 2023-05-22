@@ -21,16 +21,17 @@
         </ul>
       </div>
       <div class="intro_text">
-      <h1> 인도네시아</h1>
-      <h4> 인도네시아 관광에 도움이 되는 정보를 공유합니다</h4>
+        <h1>인도네시아</h1>
+        <h4>인도네시아 관광에 도움이 되는 정보를 공유합니다</h4>
         
         <ul class="amount"> 
-          <li><div>dd<div></li>
-          <li><div>dd<div></li>
-          <li><div>dd<div></li>
-          <li><div>dd<div></li>  
-            </ul>
+          <li><div>dd</div></li>
+          <li><div>dd</div></li>
+          <li><div>dd</div></li>
+          <li><div>dd</div></li>  
+        </ul>
+      </div>
     </div>
-   </div>
+  </div>
 </body>
 </html>
