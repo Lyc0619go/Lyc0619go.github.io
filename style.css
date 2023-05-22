@@ -76,6 +76,7 @@
 .amount > li > div {
   text-align: center;
   background: green;
+  height:57px;
 }
 
 .intro_text {
