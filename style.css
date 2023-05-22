@@ -73,7 +73,7 @@ h1 {
 
 .amount {
   position: relative;
-  top: -66px;
+  top:-66px;
   display: flex;
   width: 1280px;
   background: white;
