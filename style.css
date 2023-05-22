@@ -70,18 +70,20 @@
 .amount > li {
   flex: 1;
   height: 132px;
-  background: blue;
+  background: skyblue;
 }
 
 .amount > li > div {
   text-align: center;
   background: green;
-  border:1px solid gray;
+  border-right:1px solid gray;
   margin-top:37px;
   height:57px;
 }
 
-.amount > li > div:not(:last-child){
+.amount > li > div:not(:last-child) > div{
+  border-right:1px solid gray;
+}
 
 .intro_text {
   width: 100%;
