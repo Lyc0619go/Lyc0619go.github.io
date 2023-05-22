@@ -76,6 +76,8 @@
 .amount > li > div {
   text-align: center;
   background: green;
+  border:1px solid gray;
+  margin-top:37px;
   height:57px;
 }
 
