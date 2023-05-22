@@ -25,10 +25,10 @@
         <h4>인도네시아 관광에 도움이 되는 정보를 공유합니다</h4>
         
         <ul class="amount"> 
-          <li><div>dd</div></li>
-          <li><div>dd</div></li>
-          <li><div>dd</div></li>
-          <li><div>dd</div></li>  
+          <li><div>관광지</div></li>
+          <li><div>정보</div></li>
+          <li><div>교통수단</div></li>
+          <li><div>기후</div></li>  
         </ul>
       </div>
     </div>
