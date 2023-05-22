@@ -8,6 +8,15 @@
   color: #000;
 }
 
+h1 {
+   font-size: 48px;
+   font-weight: 100;
+}
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
 .intro_bg {
   background-image: url("../images/intro.png");
   width: 100%; 
