@@ -61,9 +61,11 @@
      display: flex;
      width:1280px;
      background: red;
+     margin: auto;
 }
 . amount > li {
     flex: 1;
+    height: 132px;
     background: blue;
 }
 
