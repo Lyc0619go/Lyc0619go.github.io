@@ -81,6 +81,8 @@
   height:57px;
 }
 
+.amount > li > div:not(:last-child){
+
 .intro_text {
   width: 100%;
   margin: 231px auto 231px auto; 
