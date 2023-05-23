@@ -27,20 +27,20 @@
         <br>
         <ul class="amount"> 
           <li>
-            <div class="contents1">관광지</div>
-            <div class="result">발리</div>
+            <div class="contents1">발리</div>
+            
           </li>
           <li>
-            <div class="contents1">관광지</div>
-            <div class="result">반둥</div>
+            <div class="contents1">롬복</div>
+            
           </li>
           <li>
-            <div class="contents1">관광지</div>
-            <div class="result">자카르타</div>
+            <div class="contents1">자카르타</div>
+        
           </li>
           <li>
-            <div class="contents1">관광지</div>
-            <div class="result">롬복</div>
+            <div class="contents1">반둥</div>
+            
           </li>  
         </ul>
       </div>
