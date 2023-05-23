@@ -31,15 +31,15 @@
           <div class="result">발리</div>
           </li>
           <li>
-          <div class="contents1"></div>
+          <div class="contents1">관광지</div>
           <div class="result">반둥</div>
           </li>
           <li>
-          <div class="contents1"></div>
+          <div class="contents1">관광지</div>
           <div class="result">자카르타</div>
           </li>
           <li>
-          <div class="contents1">기후</div>
+          <div class="contents1">관광지</div>
           <div class="result">롬복</div>
           </li>  
         </ul>
