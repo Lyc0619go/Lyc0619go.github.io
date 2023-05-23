@@ -101,7 +101,7 @@ h1 {
 
 .amount > li {
   flex: 1;
-  height: 132px;
+  height: 200px;
 }
 
 .amount > li > div {
