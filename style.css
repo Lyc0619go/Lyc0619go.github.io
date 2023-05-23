@@ -85,6 +85,8 @@ h1 {
 .nav > li > a {
   color: #000;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .amount {
@@ -122,3 +124,4 @@ h1 {
 .intro_text > h4 {
   color: black;
 }
+
