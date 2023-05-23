@@ -27,7 +27,6 @@ h1 {
   font-size: 18px;
   font-weight: bold;
 }
-/* --- */
 
 .result{
   font-size: 24px;
@@ -117,5 +116,5 @@ h1 {
 }
 .intro_text > h1,
 .intro_text > h4{
-  color:#fff;
+  color:black;
 }
