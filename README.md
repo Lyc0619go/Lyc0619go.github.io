@@ -23,7 +23,7 @@
       <div class="intro_text">
         <h1>인도네시아</h1>
         <br>
-        <
+        <br>
         <ul class="amount"> 
           <li>
             <div class="contents1">자카르타</div>            
