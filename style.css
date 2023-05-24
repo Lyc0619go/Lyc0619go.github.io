@@ -76,6 +76,7 @@ h1 {
   justify-content: flex-end;
   width: calc(1280px - 300px);
   line-height: 86px;
+  padding
 }
 
 .nav > li {
@@ -101,7 +102,7 @@ h1 {
 
 .amount > li {
   flex: 1;
-  height: 150px;
+  height: 200px;
 }
 
 .amount > li > div {
