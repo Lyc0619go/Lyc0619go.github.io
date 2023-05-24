@@ -34,7 +34,7 @@ h1 {
 
 .intro_bg {
   background-image: url("../images/intro.png");
-  width: 2000px;
+  width: auto;
   height: 300px;
 }
 
