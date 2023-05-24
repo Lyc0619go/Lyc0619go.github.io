@@ -23,8 +23,6 @@
       <div class="intro_text">
         <h1>인도네시아</h1>
         <br>
-        <h4>인도네시아 관광에 도움이 되는 정보를 공유합니다</h4>
-        <br>
         <ul class="amount"> 
           <li>
             <div class="contents1">자카르타</div>            
@@ -36,7 +34,7 @@
             <div class="contents1">롬복</div>           
           </li>
           <li>
-            <div class="contents1">반둥</div>       
+            <div class="contents1">반둥</div> 
           </li>  
         </ul>
       </div>
