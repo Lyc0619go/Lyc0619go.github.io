@@ -7,7 +7,62 @@
   padding: 0;
   color: #000;
 }
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: orange;
+  --icons-color: rgb(152, 187, 201);
+  --bodybackground-color: lightgray;
+}
 
+body { 
+  margin: 0;
+  background-color: var(--bodybackground-color);
+  font-family: 'STIX Two Math';
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 8px 12px;
+  font-family: 'STIX Two Math';
+}
+
+.navbar__logo i {
+  color: var(--accent-color);
+  padding-left: 0;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  padding: 8px 30px;
+}
+
+.navbar__icons {
+  list-style: none;
+  display: flex;
+  color: var(--icons-color);
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__icons li {
+  padding: 8px 12px;
+  margin: 0;
+}
 h1 {
   font-size: 48px;
   font-weight: 100;
@@ -67,57 +122,3 @@ h1 {
   color: #fff;
 }
 
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  width: calc(1280px - 300px);
-  line-height: 86px;
-  padding
-}
-
-.nav li {
-  margin-left: 84px;
-}
-
-.nav li a {
-  color: #000;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-
-.amount {
-  position: relative;
-  top: -66px;
-  display: flex;
-  width: 1500px;
-  background: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin: auto;
-}
-
-.amount li {
-  flex: 1;
-  height: 120px;
-}
-
-.amount li div {
-  text-align: center;
-  margin-top: 37px;
-  height: 57px;
-}
-
-.amount li:not(:last-child) div {
-  border-right: 1px solid #e1e1e1;
-}
-
-.intro_text {
-  width: 100%;
-  margin: 231px auto;
-  text-align: center;
-}
-
-.intro_text h1,
-.intro_text h4 {
-  color: black;
-}
