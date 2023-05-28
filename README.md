@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c0877f1d4f.js" crossorigin="anonymous"></script>
-    <title>Nav Bar</title>
+    <title>인도네시아 홈페이지</title>
   </head>
 
   <body>
