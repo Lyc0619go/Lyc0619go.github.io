@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/c0877f1d4f.js" crossorigin="anonymous"></script>
   <title>Nav Bar</title>
+  <style>
+    .submenu {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -20,7 +25,8 @@
 
     <ul class="navbar__menu">
       <li><a href="#">메인</a></li>
-      <li><a href="tourism.html" onmouseover="showSubMenu('tourismSubmenu')" onmouseout="hideSubMenu('tourismSubmenu')">관광지</a>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
         <ul class="submenu" id="tourismSubmenu">
           <li><a href="bali.html">발리</a></li>
           <li><a href="bandung.html">반둥</a></li>
@@ -28,14 +34,16 @@
           <li><a href="lombok.html">롬복</a></li>
         </ul>
       </li>
-      <li><a href="transportation.html" onmouseover="showSubMenu('transportationSubmenu')" onmouseout="hideSubMenu('transportationSubmenu')">교통수단</a>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
         <ul class="submenu" id="transportationSubmenu">
           <li><a href="motorcycle.html">오토바이</a></li>
           <li><a href="taxi.html">택시</a></li>
           <li><a href="bajaj.html">바자이</a></li>
         </ul>
       </li>
-      <li><a href="climate.html" onmouseover="showSubMenu('climateSubmenu')" onmouseout="hideSubMenu('climateSubmenu')">기후</a>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
         <ul class="submenu" id="climateSubmenu">
           <li><a href="wet_season.html">우기</a></li>
           <li><a href="dry_season.html">건기</a></li>
@@ -57,14 +65,13 @@
   </div>
 
   <script>
-    function showSubMenu(submenuId) {
+    function toggleSubMenu(submenuId) {
       var submenu = document.getElementById(submenuId);
-      submenu.style.display = "block";
-    }
-
-    function hideSubMenu(submenuId) {
-      var submenu = document.getElementById(submenuId);
-      submenu.style.display = "none";
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
     }
   </script>
 </body>
