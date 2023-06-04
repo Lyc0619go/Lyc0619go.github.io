@@ -108,3 +108,16 @@ a {
     display: flex;
   }
 }
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table-container img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
