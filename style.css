@@ -1,76 +1,117 @@
-<html lang="en">
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: orange;
+  --bodybackground-color: lightgray;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Nav Bar</title>
-  <style>
-    .submenu {
-      display: none;
-    }
-  </style>
-</head>
+body {
+  margin: 0;
+  background-color: var(--bodybackground-color);
+  font-family: 'STIX Two Math';
+}
 
-<body>
-  <nav class="navbar">
-    <div class="navbar__logo">
-      <a href="">인도네시아</a>
-    </div>
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
 
-    <ul class="navbar__menu">
-      <li><a href="#">메인</a></li>
-      <li>
-        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
-        <ul class="submenu" id="tourismSubmenu">
-          <li><a href="bali.html">발리</a></li>
-          <li><a href="bandung.html">반둥</a></li>
-          <li><a href="jakarta.html">자카르타</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
-        <ul class="submenu" id="transportationSubmenu">
-          <li><a href="motorcycle.html">오토바이</a></li>
-          <li><a href="taxi.html">택시</a></li>
-          <li><a href="bajaj.html">바자이</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
-        <ul class="submenu" id="climateSubmenu">
-          <li><a href="wet_season.html">우기</a></li>
-          <li><a href="dry_season.html">건기</a></li>
-        </ul>
-      </li>
-      <li><a href="info.html">정보</a></li>
-    </ul>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 8px 12px;
+  font-family: 'STIX Two Math';
+}
 
-  </nav>
+.navbar__logo i {
+  color: var(--accent-color);
+  padding-left: 0;
+}
 
-  <div class="search-container">
-    <input type="text" class="search-input" placeholder="검색어를 입력하세요" onkeyup="searchFunction()">
-    <button class="search-button">검색</button>
-  </div>
-  
-    <table>
-  <tr>
-    <td><img src="images/intro.jpg" width="850" height="700"></td>
-    <td><img src="images/indonesia.jpg" width="850" height="700"></td>
-    <td><img src="images/bandung.jpg" width="850" height="700"></td>
-  </tr>
-</table>
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
 
-  <script>
-    function toggleSubMenu(submenuId) {
-      var submenu = document.getElementById(submenuId);
-      if (submenu.style.display === 'none') {
-        submenu.style.display = 'block';
-      } else {
-        submenu.style.display = 'none';
-      }
-  </script>
-</body>
+.navbar__menu li {
+  padding: 8px 30px;
+}
 
-</html>
+.navbar__menu li:hover {
+  background-color: var(--accent-color);
+  border-radius: 3px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #263343;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: orange;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar__toggleBtn {
+    color: var(--accent-color);
+    position: absolute;
+    right: 15px;
+    font-size: 20px;
+  }
+
+  .navbar__toggleBtn {
+    display: block;
+  }
+
+  .navbar__menu.active {
+    display: flex;
+  }
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
