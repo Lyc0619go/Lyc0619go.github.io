@@ -50,8 +50,8 @@
   </nav>
 
   <div class="search-container">
-    <input type="text" class="search-input" placeholder="검색어를 입력하세요">
-    <button class="search-button">검색</button>
+    <input type="text" class="search-input" placeholder="검색어를 입력하세요" id="searchInput">
+    <button class="search-button" onclick="activateSearch()">검색</button>
   </div>
   
     <table>
@@ -69,6 +69,14 @@
         submenu.style.display = 'block';
       } else {
         submenu.style.display = 'none';
+      }
+    }
+    
+    function activateSearch() {
+      var input = document.getElementById('searchInput').value;
+      if (input) {
+        var searchUrl = 'https://search.naver.com/search.naver?query=' + encodeURIComponent(input);
+        window.location.href = searchUrl;
       }
     }
   </script>
