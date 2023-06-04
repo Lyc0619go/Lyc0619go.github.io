@@ -70,22 +70,6 @@
       } else {
         submenu.style.display = 'none';
       }
-    }
-    
-    function searchFunction() {
-      var input = document.querySelector('.search-input');
-      var value = input.value.toLowerCase();
-      
-      var links = document.querySelectorAll('.navbar__menu a');
-      for (var i = 0; i < links.length; i++) {
-        var linkText = links[i].textContent.toLowerCase();
-        if (linkText.includes(value)) {
-          links[i].classList.add('active');
-        } else {
-          links[i].classList.remove('active');
-        }
-      }
-    }
   </script>
 </body>
 
