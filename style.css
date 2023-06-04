@@ -5,6 +5,10 @@
   --bodybackground-color: lightgray;
 }
 
+.center {
+  text-align: center;
+}
+
 body {
   margin: 0;
   background-color: var(--bodybackground-color);
