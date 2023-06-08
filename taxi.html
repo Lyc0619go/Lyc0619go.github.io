@@ -11,6 +11,39 @@
 </head>
 
 <body>
+  
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="">인도네시아</a>
+    </div>
+  <ul class="navbar__menu">
+      <li><a href="#">메인</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
+        <ul class="submenu" id="tourismSubmenu">
+          <li><a href="bali.html">발리</a></li>
+          <li><a href="bandung.html">반둥</a></li>
+          <li><a href="jakarta.html">자카르타</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
+        <ul class="submenu" id="transportationSubmenu">
+          <li><a href="motorcycle.html">오토바이</a></li>
+          <li><a href="taxi.html">택시</a></li>
+          <li><a href="bajaj.html">바자이</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
+        <ul class="submenu" id="climateSubmenu">
+          <li><a href="wet_season.html">우기</a></li>
+          <li><a href="dry_season.html">건기</a></li>
+        </ul>
+      </li>
+      <li><a href="info.html">정보</a></li>
+    </ul>
+  </nav>
+  
   <h1>교통수단</h1>
 <table>
     <tr>
@@ -29,5 +62,17 @@
        인도네시아 공항에서 이용할때는 번호표를 뽑고 대기해야 한다. <br>
        다른택시를 추천하지 않는 이유로는 위험할 수 도 있고, 바가지 요금을 씌울 확률이 높기 때문이다. <br>
        다른택시를 이용할때는 주로 미터기를 사용하기보다 기사기 미리 도착지를 물어보고 요금을 비싸게 부르기 떄문에 조심해야 한다. </h2>
+  
+  <script>
+    function toggleSubMenu(submenuId) {
+      var submenu = document.getElementById(submenuId);
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
+    }
+  </script>
+  
 </body>
 </html>
