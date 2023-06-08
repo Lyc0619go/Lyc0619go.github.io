@@ -9,6 +9,38 @@
   <script src="https://kit.fontawesome.com/c0877f1d4f.js" crossorigin="anonymous"></script>
   <title>moto</title>
 </head>
+  
+   <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="">인도네시아</a>
+    </div>
+  <ul class="navbar__menu">
+      <li><a href="#">메인</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
+        <ul class="submenu" id="tourismSubmenu">
+          <li><a href="bali.html">발리</a></li>
+          <li><a href="bandung.html">반둥</a></li>
+          <li><a href="jakarta.html">자카르타</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
+        <ul class="submenu" id="transportationSubmenu">
+          <li><a href="motorcycle.html">오토바이</a></li>
+          <li><a href="taxi.html">택시</a></li>
+          <li><a href="bajaj.html">바자이</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
+        <ul class="submenu" id="climateSubmenu">
+          <li><a href="wet_season.html">우기</a></li>
+          <li><a href="dry_season.html">건기</a></li>
+        </ul>
+      </li>
+      <li><a href="info.html">정보</a></li>
+    </ul>
+  </nav>
 
 <body>
   <h1>오토바이</h1>
@@ -41,5 +73,17 @@
     4. 현재 자기위치를 설정후 목적지를 입력한다. <br>
     5. 잠시후 비용이 얼마나 들고 차종류와 기사 전화번호 사진이 뜬다. <br>
     6. 기다렸다가 이용후 결제하면 된다. (앱에서 미리 결제 가능) </h2>
+  
+   <script>
+    function toggleSubMenu(submenuId) {
+      var submenu = document.getElementById(submenuId);
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
+    }
+  </script>
+  
   </body>
 </html>
