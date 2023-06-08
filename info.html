@@ -10,6 +10,39 @@
   <title>Info</title>
 </head>
 
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="">인도네시아</a>
+    </div>
+  <ul class="navbar__menu">
+      <li><a href="#">메인</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
+        <ul class="submenu" id="tourismSubmenu">
+          <li><a href="bali.html">발리</a></li>
+          <li><a href="bandung.html">반둥</a></li>
+          <li><a href="jakarta.html">자카르타</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
+        <ul class="submenu" id="transportationSubmenu">
+          <li><a href="motorcycle.html">오토바이</a></li>
+          <li><a href="taxi.html">택시</a></li>
+          <li><a href="bajaj.html">바자이</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
+        <ul class="submenu" id="climateSubmenu">
+          <li><a href="wet_season.html">우기</a></li>
+          <li><a href="dry_season.html">건기</a></li>
+        </ul>
+      </li>
+      <li><a href="info.html">정보</a></li>
+    </ul>
+  </nav>
+
+  
 <body>
   <h1>정보 페이지</h1>
   <table>
@@ -37,5 +70,17 @@
          5.  관광객은 기도 목적이 아니라면 사원 안 신성한 공간에 들어가서는 안 되며, 기도를 위해 입장할 때도 전통 의상을 반드시 입어야 한다. 특히 현지 주민들이 신성하게 여기는 건물이나 나무 등에 오르거나 발가벗은 채 함께 사진을 찍지 말도록 당부하고 있다. <br>
          6.  일반적으로 양치를 할때는 생수를 사용하야 한다. 그 이유는 대부분 화장실이나 주방에서 나오는 물들은 정수가 되지 않아서 석회질 가루가 물에 섞여 있기 때문에 필터를 사용하는 경우도 있지만, 장착되어 있지 않을때 생수를 사용해야 한다. </h2>
   </table>
+  
+  <script>
+    function toggleSubMenu(submenuId) {
+      var submenu = document.getElementById(submenuId);
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
+    }
+  </script>
+  
   </body>
   </html>
