@@ -11,6 +11,39 @@
 </head>
 
 <body>
+  
+    <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="">인도네시아</a>
+    </div>
+  <ul class="navbar__menu">
+      <li><a href="#">메인</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
+        <ul class="submenu" id="tourismSubmenu">
+          <li><a href="bali.html">발리</a></li>
+          <li><a href="bandung.html">반둥</a></li>
+          <li><a href="jakarta.html">자카르타</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
+        <ul class="submenu" id="transportationSubmenu">
+          <li><a href="motorcycle.html">오토바이</a></li>
+          <li><a href="taxi.html">택시</a></li>
+          <li><a href="bajaj.html">바자이</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
+        <ul class="submenu" id="climateSubmenu">
+          <li><a href="wet_season.html">우기</a></li>
+          <li><a href="dry_season.html">건기</a></li>
+        </ul>
+      </li>
+      <li><a href="info.html">정보</a></li>
+    </ul>
+  </nav>
+  
   <h1>기후</h1>
   <table>
     <tr>
@@ -28,5 +61,17 @@
   <h2> 1. 인도네시아 계절은 보통 건기와 우기로 나뉜다. 건기에는 정말 비가 한방울도 안오고, 우기에는 기다렸다는 듯이 하루가 멀다하고 비가 쏟아진다.<br>
        2. 보통 우기에는 11월에서 4월 정도까지 이어지고, 나머지 기간은 건기로 구분된다. 우기에는 홍수(banjir)를 매일 단위로 눈 앞에서 경험 할 수 있다. <br>
        3. 이시기에는 집에 침수피해가 크면 누전차단기(두꺼비집)도 내리기때문에 연락도 잘 되지 않고, 출퇴근시간에 길이 엄청나게 막힌다. </h2>      
-</body>
+
+   <script>
+    function toggleSubMenu(submenuId) {
+      var submenu = document.getElementById(submenuId);
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
+    }
+  </script>
+  
+  </body>
 </html>
