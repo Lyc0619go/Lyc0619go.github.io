@@ -9,6 +9,39 @@
   <script src="https://kit.fontawesome.com/c0877f1d4f.js" crossorigin="anonymous"></script>
   <title>dry</title>
 </head>
+  
+   <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="">인도네시아</a>
+    </div>
+    
+    <ul class="navbar__menu">
+      <li><a href="#">메인</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
+        <ul class="submenu" id="tourismSubmenu">
+          <li><a href="bali.html">발리</a></li>
+          <li><a href="bandung.html">반둥</a></li>
+          <li><a href="jakarta.html">자카르타</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
+        <ul class="submenu" id="transportationSubmenu">
+          <li><a href="motorcycle.html">오토바이</a></li>
+          <li><a href="taxi.html">택시</a></li>
+          <li><a href="bajaj.html">바자이</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
+        <ul class="submenu" id="climateSubmenu">
+          <li><a href="wet_season.html">우기</a></li>
+          <li><a href="dry_season.html">건기</a></li>
+        </ul>
+      </li>
+      <li><a href="info.html">정보</a></li>
+    </ul>
+  </nav>
 
 <body>
   <h1>기후</h1>
@@ -28,5 +61,17 @@
   <h2> 1. 인도네시아 건기는 5월에서 10월까지이며, 이시기에는 비가 상대적으로 오지 않기 때문에, 여행하기에 적절할 수 있다. <br>
        2. 자카르타 기준으로, 약 32~34도에 습도는 70~80% 이고, 이는 한국 서울의 6월 날씨와 비슷하다고 보시면 얼추 맞다. <br>
        3. 발리는 자카르타보다 덜 덥고, 반둥은 발리보다도 덜 덥다. 그래서 젊은 남성분들은 덥다고 느낄 수 있고, 여성분이나 활력이 적은 노인분들은 별로 덥지 않다고 느낄 수 있다. </h2>
- </body>
+ 
+  <script>
+    function toggleSubMenu(submenuId) {
+      var submenu = document.getElementById(submenuId);
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
+    }
+  </script>
+  
+  </body>
 </html>
