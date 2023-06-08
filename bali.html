@@ -11,6 +11,34 @@
 </head>
 
 <body>
+  <ul class="navbar__menu">
+      <li><a href="#">메인</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
+        <ul class="submenu" id="tourismSubmenu">
+          <li><a href="bali.html">발리</a></li>
+          <li><a href="bandung.html">반둥</a></li>
+          <li><a href="jakarta.html">자카르타</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
+        <ul class="submenu" id="transportationSubmenu">
+          <li><a href="motorcycle.html">오토바이</a></li>
+          <li><a href="taxi.html">택시</a></li>
+          <li><a href="bajaj.html">바자이</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
+        <ul class="submenu" id="climateSubmenu">
+          <li><a href="wet_season.html">우기</a></li>
+          <li><a href="dry_season.html">건기</a></li>
+        </ul>
+      </li>
+      <li><a href="info.html">정보</a></li>
+    </ul>
+  </nav>
+  
   <h1>관광지</h1>
   <table>
     <tr>
@@ -34,5 +62,15 @@
        2. 짐바란 선셋 비치는 공항에서 20분 거리로 가까운곳에 위치해 있으며 오후 3~4시가 되면 거대한 해변 레스토랑으로 변한다. 현지인과 함께라면 저렴한 가격에 씨푸드를 즐길 수 있으나 요즘은 패키지 여행자들에게 책정된 코스 가격이 있어 디스카운트가 어려움 <br>
        3. 우붓은 숲과 예술이 공존하는 곳이다. 이곳에서 다양한 발리 전통 의상과 공예품, 그리고 인도네시아 공예품까지 한눈에 볼 수 있는 곳이다. 그리고 몽키 포레스트 까지 있어 수많은 원숭이들을 만날 수 있다. </h2>
     
+    <script>
+    function toggleSubMenu(submenuId) {
+      var submenu = document.getElementById(submenuId);
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
+    }
+  </script>
     </body>
 </html>
