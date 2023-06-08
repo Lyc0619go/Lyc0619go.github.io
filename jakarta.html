@@ -11,6 +11,38 @@
 </head>
 
 <body>
+   <nav class="navbar">
+    <div class="navbar__logo">
+      <a href="">인도네시아</a>
+    </div>
+  <ul class="navbar__menu">
+      <li><a href="#">메인</a></li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('tourismSubmenu')">관광지</a>
+        <ul class="submenu" id="tourismSubmenu">
+          <li><a href="bali.html">발리</a></li>
+          <li><a href="bandung.html">반둥</a></li>
+          <li><a href="jakarta.html">자카르타</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleSubMenu('transportationSubmenu')">교통수단</a>
+        <ul class="submenu" id="transportationSubmenu">
+          <li><a href="motorcycle.html">오토바이</a></li>
+          <li><a href="taxi.html">택시</a></li>
+          <li><a href="bajaj.html">바자이</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="toggleSubMenu('climateSubmenu')">기후</a>
+        <ul class="submenu" id="climateSubmenu">
+          <li><a href="wet_season.html">우기</a></li>
+          <li><a href="dry_season.html">건기</a></li>
+        </ul>
+      </li>
+      <li><a href="info.html">정보</a></li>
+    </ul>
+  </nav>
+  
   <h1>관광지</h1>
   <table>
     <tr>
@@ -30,5 +62,17 @@
        2. 모나스 국립기념탑은 이 랜드마크는 오벨리스크 모양으로 그 높이가 137미터에 달한다.  불꽃조각을 나타내는 14.5미터의 거대한 청동 장식품 위로 꼭대기는 32킬로그램의 금으로 이루어져다. 주말마다 음악 분수공연이 열리는 넓은 공원으로 둘러싸여 있다. <br>
        3. 안쫄 테마파크의 이 유원지는 자카르타의 북쪽, 자카르타만의 가장자리에 위치하고 있다. 이 곳은 대부분의 자카르타 시민들이 주말을 보내는 목적지이다. 이 공원은 씨월드 (아쿠아리움), 판타지 월드 (두니아 판타지/ 두판- 놀이공원), 아틀란티스 워터 어드벤쳐 및 마리나 해변과 같은 여러가지 활동이 가능한 체험장소들이 있다. </h2>
   <br>
+  
+  <script>
+    function toggleSubMenu(submenuId) {
+      var submenu = document.getElementById(submenuId);
+      if (submenu.style.display === 'none') {
+        submenu.style.display = 'block';
+      } else {
+        submenu.style.display = 'none';
+      }
+    }
+  </script>
+  
 </body>
 </html>
